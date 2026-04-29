@@ -65,7 +65,7 @@ nav .nav-links {
 .sidebar a {
     padding: 15px 32px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: clamp(0.9rem, 4.5vw, 1.8rem);
     color: white;
     display: block;
     transition: 0.3s;
