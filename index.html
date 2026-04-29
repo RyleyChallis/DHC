@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/query.css">
 
     <script type="application/ld+json">
     {
@@ -69,6 +70,16 @@
     </script>
 </head>
 <body>
+    <div id="mobile-sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">Treatments</a>
+        <a href="#">Visit Us</a>
+        <a href="#">Contact</a>
+        <a href="index.html" class="logo">
+            <img src="css/img/logo.png" alt="The Dental Hygiene Clinic Logo">
+        </a>
+    </div>
     <nav>
         <a class="logo" href="index.html">
             <img src="css/img/logo.png" alt="The Dental Hygiene Clinic Logo">
@@ -79,6 +90,7 @@
             <li><a href="">Visit Us</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+        <a href="javascript:void(0)" id="more-link" onclick="openNav()">Menu &#9776;</a>
     </nav>
     
     <header>
@@ -88,5 +100,6 @@
         </div>
         <a class="hero-cta" href="">Book Your Consultation</a>
     </header>
+    <script src="css/script.js"></script>
 </body>
 </html>

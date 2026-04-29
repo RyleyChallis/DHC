@@ -41,3 +41,60 @@ nav .nav-links {
     transform: translateY(-6px);
     opacity: 1 !important;
 }
+
+.sidebar {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 0;
+    background-color: rgba(10, 10, 10, 0.7); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar a {
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+}
+
+#more-link {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar .logo {
+    padding-top: 50px;
+}
+
+.sidebar .logo img {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
