@@ -1,5 +1,5 @@
 function openNav() {
-  document.getElementById("mobile-sidebar").style.width = "40%";
+  document.getElementById("mobile-sidebar").style.width = "60%";
 }
 
 function closeNav() {

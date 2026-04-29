@@ -9,6 +9,7 @@ nav {
     min-height: 14vh;
     padding: 20px 40px;
     box-sizing: border-box;
+    overflow: hidden;
 
     backdrop-filter: blur(8px);
     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
@@ -16,7 +17,7 @@ nav {
 }
 
 nav .logo img {
-    width: 200px;
+    width: clamp(80px, 14vw, 200px);
     height: auto;
 }
 
@@ -86,6 +87,7 @@ nav .nav-links {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .sidebar .logo {
