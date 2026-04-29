@@ -17,7 +17,7 @@ nav {
 }
 
 nav .logo img {
-    width: clamp(80px, 14vw, 200px);
+    width: clamp(120px, 14vw, 200px);
     height: auto;
 }
 
