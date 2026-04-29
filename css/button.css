@@ -1,7 +1,7 @@
 .hero-cta {
     padding: 16px 20px;
     margin-top: 20px;
-    max-width: 200px;
+    max-width: fit-content;
     border-radius: 4px;
 
     font-size: 0.9rem;
@@ -10,6 +10,10 @@
     color: black;
     text-decoration: none;
     transition: all 0.3s ease;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .hero-cta:hover {
